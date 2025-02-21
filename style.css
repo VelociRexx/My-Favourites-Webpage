@@ -1,6 +1,14 @@
 body {
   width: 600px;
   margin: 0 auto;
+  background-color: whitesmoke;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  padding-bottom: 15px;
 }
 h2 {
   padding-top: 40px;
@@ -8,4 +16,29 @@ h2 {
 }
 .center {
   text-align: center;
+}
+html {
+  background-image: url(img/stars3.jpg);
+}
+a {
+  color: teal;
+}
+a:hover {
+  color: darkblue;
+  font-weight: bold;
+}
+
+#label {
+  width: 5em;
+}
+#label::after {
+  content: "Conard.";
+}
+#label:hover:after {
+  content: "French for sh*thead.";
+}
+h1,
+h2,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
