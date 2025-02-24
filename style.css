@@ -30,7 +30,6 @@ a:hover {
 
 #label {
   width: 5em;
-  text-decoration: underline;
 }
 #label::after {
   content: "Conard.";
